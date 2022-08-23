@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+h1{
+    font-size: 170%; 
+}
+@media(max-width:650px) {
+    h1{
+        font-size: large;
+    }
+}
+h2{
+    font-size: 130%;
+
+}
+
+.e{
+    height: 33rem;
+}
+
+    
+@media(max-width:850px) {
+        h2{
+            font-size: small;
+        }
+    }
+::-webkit-scrollbar{
+    overflow: hidden;
+}
+@media(max-width:550px) {
+    .e{
+        height: 100%;
+    }
+}
+h1{
+    cursor: pointer;
+}
+
+h1:hover{
+    color: black;
+    background-color: rgb(11, 252, 180);
+    
+}
+a:hover{
+    color:blue;
+}
+
+p:hover{
+    color:blue;
+}
+
+i:hover{
+    color: blue;
+}
+
+@media(max-width:350px) {
+    h1{
+        font-size: small;
+    }
+}
